@@ -1,2 +1,13 @@
+
+
+
 server:
   port: 7777
+
+accounts:
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db
+    username: root
+    password: Mamaitata1
+    ddl: create-drop
+    show-sql: true
