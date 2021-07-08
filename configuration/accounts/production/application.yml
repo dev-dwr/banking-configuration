@@ -1,7 +1,7 @@
 
 
 accounts:
-  allow-get-accounts: false
+  allow-get-accounts: true
 
 spring:
   datasource:
