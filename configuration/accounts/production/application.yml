@@ -1,8 +1,7 @@
 
 
-
-server:
-  port: 7777
+accounts:
+  allow-get-accounts: false
 
 spring:
   datasource:
@@ -14,3 +13,12 @@ spring:
       ddl-auto: create-drop
     show-sql: true
 
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 7777
