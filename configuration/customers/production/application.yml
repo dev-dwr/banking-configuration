@@ -15,7 +15,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: "info,health,refresh,metrics,mappings"
 
 server:
   port: 6666
