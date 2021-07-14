@@ -17,5 +17,15 @@ management:
       exposure:
         include: "info,health,refresh,metrics,mappings"
 
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    enable: true
+
 server:
   port: 8887
