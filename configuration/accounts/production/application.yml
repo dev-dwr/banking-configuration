@@ -2,14 +2,14 @@
 
 accounts:
   allow-get-accounts: true
-  ribbon:
-    eureka:
-      enabled: false
-    listOfServers: localhost:9999,localhost:9998
-
-feign:
-  hystrix:
-    enabled: false
+#  ribbon:
+#    eureka:
+#      enabled: false
+#    listOfServers: localhost:9999,localhost:9998
+#
+#feign:
+#  hystrix:
+#    enabled: false
 
 spring:
   datasource:
